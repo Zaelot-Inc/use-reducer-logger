@@ -17,6 +17,8 @@ import logger from 'use-reducer-logger';
 const [state, dispatch] = useReducer(logger(reducer), initialState);
 ```
 
+See [Example](https://github.com/jefflombard/use-reducer-logger-example)
+
 ## In a Dev Environment
 You should only use this in a `dev` environment. So you could do something like this to apply the logger based on the `env`.
 
