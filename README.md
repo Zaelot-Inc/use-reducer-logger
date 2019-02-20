@@ -1,5 +1,5 @@
 # use-reducer-logger
-A very very basic logger for the `useReducer` part of the [React Hooks API](https://reactjs.org/docs/hooks-reference.html#usereducer). Inspired by [redux-logger](https://github.com/LogRocket/redux-logger).
+A very very basic logger for the `useReducer` function in the [React Hooks API](https://reactjs.org/docs/hooks-reference.html#usereducer). Inspired by [redux-logger](https://github.com/LogRocket/redux-logger).
 
 ![screenshot of logger](screenshot.png)
 
@@ -10,14 +10,14 @@ A very very basic logger for the `useReducer` part of the [React Hooks API](http
 1. Import logger with `import logger from 'use-reducer-logger';`
 2. Wrap your reducer with logger before passing it to `useReducer`
 
-```
+```javascript
 const [state, dispatch] = useReducer(logger(reducer), initialState);
 ```
 
 ## In a Dev Environment
 You should only use this in a `dev` environment. So you could do something like this to apply the logger based on the `env`.
 
-```
+```javascript
 function reducer(state, action) {
   switch (action.type) {
     case 'increment':
