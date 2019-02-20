@@ -7,7 +7,12 @@ A very very basic logger for the `useReducer` function in the [React Hooks API](
 1. `npm install use-reducer-logger --save-dev` or `yarn add use-reducer-logger -D`
 
 # Usage
-1. Import logger with `import logger from 'use-reducer-logger';`
+1. Import logger with
+
+```javascript
+import logger from 'use-reducer-logger';
+```
+
 2. Wrap your reducer with logger before passing it to `useReducer`
 
 ```javascript
