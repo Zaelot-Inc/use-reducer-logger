@@ -12,9 +12,6 @@ A very very basic logger for the `useReducer` part of the [React Hooks API](http
 const [state, dispatch] = useReducer(logger(reducer), initialState);
 ```
 
-## Example
-See [Example Repo]() for usage.
-
 ## In a Dev Environment
 You should only use this in a `dev` environment. So you could do something like this to apply the logger based on the `env`.
 
