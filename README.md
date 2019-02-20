@@ -1,11 +1,13 @@
-# simple-react-hook-flux-logger
+# use-reducer-logger
 A very very basic logger for the `useReducer` part of the [React Hooks API](https://reactjs.org/docs/hooks-reference.html#usereducer). Inspired by [redux-logger](https://github.com/LogRocket/redux-logger).
 
+![screenshot of logger](screenshot.png)
+
 # Setup
-1. `npm install srhfl --save-dev` or `yarn add srhfl -D`
+1. `npm install use-reducer-logger --save-dev` or `yarn add use-reducer-logger -D`
 
 # Usage
-1. Import logger with `import logger from 'srhfl';`
+1. Import logger with `import logger from 'use-reducer-logger';`
 2. Wrap your reducer with logger before passing it to `useReducer`
 
 ```
