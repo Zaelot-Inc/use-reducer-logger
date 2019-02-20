@@ -8,6 +8,9 @@ A very very basic logger for the `useReducer` part of the [React Hooks API](http
 1. Import logger.
 2. Wrap your reducer.
 
+## In a Dev Environment
+add conditional application here
+
 # Example
 1. `git clone [this repo]`
 2. `cd example`
