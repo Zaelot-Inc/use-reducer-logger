@@ -40,12 +40,6 @@ const [state, dispatch] = (
 );
 ```
 
-
-# Example
-1. `git clone [this repo]`
-2. `cd example`
-3. `yarn && yarn start`
-
 # License
 MIT see [`LICENSE`](/LICENSE).
 
