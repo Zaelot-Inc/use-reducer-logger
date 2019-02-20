@@ -1,0 +1,25 @@
+{
+  "name": "srhfl",
+  "version": "1.0.0",
+  "description": "A very basic logger for the useReducer portion of the React Hooks API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefflombard/simple-react-hook-flux-logger.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "logger",
+    "flux"
+  ],
+  "author": "Jeff Lombard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jefflombard/simple-react-hook-flux-logger/issues"
+  },
+  "homepage": "https://github.com/jefflombard/simple-react-hook-flux-logger#readme"
+}
