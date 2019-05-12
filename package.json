@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/jefflombard/simple-react-hook-flux-logger/issues"
   },
-  "homepage": "https://github.com/jefflombard/simple-react-hook-flux-logger#readme"
+  "homepage": "https://github.com/jefflombard/simple-react-hook-flux-logger#readme",
+  "types": "./index.d.ts"
 }
