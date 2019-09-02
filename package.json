@@ -1,6 +1,6 @@
 {
   "name": "use-reducer-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very basic logger for the useReducer function in the React Hooks API.",
   "main": "srhfl.js",
   "scripts": {
