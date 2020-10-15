@@ -34,7 +34,7 @@ function reducer(state, action) {
   }
 }
 
-const [state, dispatch] = (
+const [state, dispatch] = useReducer(
   process.env.NODE_ENV === 'development' ? logger(reducer) : reducer,
   initialState
 );
