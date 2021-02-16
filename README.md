@@ -45,3 +45,6 @@ MIT see [`LICENSE`](/LICENSE).
 
 # Contributing
 Contributions are welcome.
+
+# Sponsor
+This repo is now sponsored/maintained by [Zaelot Inc.](https://zaelot.com)
